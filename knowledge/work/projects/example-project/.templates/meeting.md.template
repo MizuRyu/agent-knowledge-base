@@ -1,0 +1,30 @@
+---
+type: meeting
+status: processed
+project: example-project
+started_at: YYYY-MM-DDTHH:MM:SS+09:00
+tags: []
+---
+
+# 会議タイトル
+
+## 要約
+
+根拠がある会議結果だけを記載する。
+
+## 決定事項
+
+- 決定事項がある場合だけ記載する。
+
+## フォローアップ
+
+- フォローアップがある場合だけ記載する。
+
+<!-- timeline -->
+
+- **YYYY-MM-DD** | 情報源 — 要約。
+
+## ファイル名規約
+
+- 開始時間が分かる場合: `yymmdd_hhmm_<title>.md`
+- 開始時間が不明な場合: `yymmdd_<title>.md`

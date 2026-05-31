@@ -1,0 +1,18 @@
+schema:
+  pack: gbrain-recommended
+
+source:
+  id: work
+  description: agent-knowledge-base 用の仕事 knowledge 正本。
+
+storage:
+  db_tracked:
+    - projects/
+    - people/
+    - companies/
+    - meetings/
+    - decisions/
+    - concepts/
+    - source/
+    - archive/
+  db_only: []

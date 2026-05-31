@@ -1,0 +1,36 @@
+---
+type: source
+subtype: processed-document
+status: extracted
+project: project-slug
+raw_refs: []
+view_refs: []
+---
+
+# 資料タイトル
+
+## 現在の状態
+
+資料から抽出した現在の理解。
+
+## リンク
+
+- 関連する project、concept、meeting、worklog ページを wikilink で追加する。
+
+## Raw
+
+- `raw_refs` に raw 原本の参照を追加する。
+
+## Extracted
+
+- `extracted/<file-stem>/` 配下に docs-processor の抽出結果を置く。
+- 分解単位とファイル名は docs-processor の形式別処理に任せる。
+
+## Views
+
+- `views/<scope>/yymmdd_<slug>.*` に人間用 view を置く。
+- view の中身には固定構造を設けない。
+
+<!-- timeline -->
+
+- **YYYY-MM-DD** | 情報源 — 要約。

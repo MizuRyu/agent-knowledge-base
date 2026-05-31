@@ -1,0 +1,14 @@
+# Work brain sidecars are intentionally outside Git and gbrain indexing.
+.raw/
+.artifacts/
+.private/
+_inbox/*
+!_inbox/README.md
+!_inbox/intake-log.md
+
+# Rich documents are source inputs or generated artifacts, not brain pages.
+*.docx
+*.xlsx
+*.pptx
+*.pdf
+*.zip

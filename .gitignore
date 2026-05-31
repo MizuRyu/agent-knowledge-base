@@ -1,0 +1,23 @@
+# Local scratch / upstream investigation clone
+tmp/
+
+# Installed dependencies / build products
+node_modules/
+.gbrain-work/
+.uv-cache/
+.serena/
+.claude/
+.DS_Store
+
+# GBrain work source sidecars. Markdown pages are system of record.
+knowledge/work/.raw/
+knowledge/work/.artifacts/
+knowledge/work/.private/
+knowledge/work/_inbox/*
+!knowledge/work/_inbox/README.md
+!knowledge/work/_inbox/intake-log.md
+knowledge/work/**/*.docx
+knowledge/work/**/*.xlsx
+knowledge/work/**/*.pptx
+knowledge/work/**/*.pdf
+knowledge/work/**/*.zip

@@ -1,0 +1,31 @@
+---
+type: note
+subtype: worklog-task
+status: done
+project: project-slug
+task_ref: task://local/YYYY/MM/YYYY-MM-DD/NN-task-slug
+artifact_refs: []
+tags: [worklog]
+---
+
+# タスクタイトル
+
+## 要約
+
+完了またはレビュー済みの作業を要約する。
+
+## 参照した Knowledge
+
+- タスク中に参照した brain ページをリンクする。
+
+## 成果物
+
+- artifact または Markdown の成果物をリンクする。
+
+## 再利用メモ
+
+- 再利用できる判断、手順、注意事項を記載する。
+
+<!-- timeline -->
+
+- **YYYY-MM-DD** | 情報源 — 要約。

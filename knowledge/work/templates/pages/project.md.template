@@ -1,0 +1,26 @@
+---
+type: project
+status: active
+aliases: []
+tags: []
+repos: []
+worklog_root: worklog
+---
+
+# プロジェクトタイトル
+
+## 現在の状態
+
+プロジェクトに関する現在の理解。
+
+## 未解決事項
+
+- 未解決の質問、リスク、フォローアップがある場合だけ記載する。
+
+## リンク
+
+- 関連する brain ページを wikilink で追加する。
+
+<!-- timeline -->
+
+- **YYYY-MM-DD** | 情報源 — 要約。
