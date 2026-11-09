@@ -8,6 +8,12 @@ Markdown を knowledge の正本とし、[gbrain](./gbrain/) を検索、knowled
 
 Coding agent は、この repository の作業前に [AGENTS.md](./AGENTS.md) を読み、`knowledge/work/` 更新時は [ACCESS_POLICY.md](./knowledge/work/ACCESS_POLICY.md)、[RESOLVER.md](./knowledge/work/RESOLVER.md)、[schema.md](./knowledge/work/schema.md) に従います。
 
+## 現状
+
+2026-06-01 の初回 commit のまま、更新していません。`knowledge/work/` に入っているのは、架空の `example-project` の見本と雛形だけです。
+
+gbrain は v0.42.1.0 を [gbrain/](./gbrain/) に取り込んでいます（MIT、[gbrain/LICENSE](./gbrain/LICENSE)）。
+
 ## 基本方針
 
 - Markdown を system of record とする。
@@ -39,7 +45,7 @@ gbrain runtime
   +-- MCP server
 ```
 
-## Repository Structure
+## リポジトリの構成
 
 ```text
 agent-knowledge-base/
