@@ -221,3 +221,7 @@ scripts/knowledge/maintain-gbrain-work.sh
 | [ADR-0001](./docs/adr/0001-work-document-intake-and-gbrain-boundary.md) | raw 資料と indexed knowledge の境界 |
 | [ADR-0002](./docs/adr/0002-task-workspace-and-brain-worklog-projection.md) | task workspace と brain worklog projection の分離 |
 | [Work Brain の一日運用ライフサイクル](./docs/memo/260531/01_work-brainの一日運用ライフサイクル.md) | 現在の実装範囲、日常フロー、scheduled 実行の扱い |
+
+## ライセンス
+
+[MIT](LICENSE)。取り込んだ [gbrain/](./gbrain/) は、[gbrain/LICENSE](./gbrain/LICENSE)（MIT）に従います。
